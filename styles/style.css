@@ -1,0 +1,17 @@
+p {
+  color: black;
+  font-family: monospace;
+  font-size: 1.5em;
+}
+h1 {
+  font-family: monospace;
+  font-size: 2.5em;
+}
+h2 {
+  font-family: monospace;
+  font-size: 2em;
+}
+ul {
+  font-family: monospace;
+  font-size: 1.1em;
+}
