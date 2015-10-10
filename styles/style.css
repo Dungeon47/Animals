@@ -1,43 +1,44 @@
 body {
   background-image: url("../images/desert2.jpeg");
-  background-color: #aaffcc;
+  background-color: #333344;
 }
-.wrapper {
-  overflow: hidden;
+/* #slideshow1 {
+  margin: 50px auto;
+  position: relative;
+  width: 400px;
+  height: 300px;
+  padding: 0px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+  border-radius: 10px;
+  border-color: #000000;
 }
-.sliding-background {
-  background: url(../images/animals-sliding-background.jpg) repeat-x;
-  height: 800px;
-  width: 5075;
-  animation: slide 60s linear infinite;
+
+#slideshow1 > div {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
 }
-@keyframes slide {
-  0%{
-    transform: translate3d(0, 0, 0);
-  }
-  100%{
-    transform: translate3d(-1692.px, 0, 0);
-  }
+
+#slideshow2 {
+  margin: 50px auto;
+  position: relative;
+  width: 400px;
+  height: 300px;
+  padding: 0px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 1);
 }
+
+#slideshow2 > div {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+*/
 p {
-  color: black;
-  -webkit-text-fill-color: white;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-  font-family: monospace;
-  font-size: 1.5em;
-  text-align: center;
-}
-h1 {
-  color: black;
-  -webkit-text-fill-color: white;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
-  font-family: monospace;
-  font-size: 3em;
-  text-align: center;
-}
-h2 {
   color: black;
   -webkit-text-fill-color: white;
   -webkit-text-stroke-width: 1px;
@@ -45,6 +46,27 @@ h2 {
   font-family: monospace;
   font-size: 2em;
   text-align: center;
+  font-weight: bold;
+}
+h1 {
+  color: black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  font-family: monospace;
+  font-size: 5em;
+  text-align: center;
+  font-weight: bolder;
+}
+h2 {
+  color: black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-family: monospace;
+  font-size: 3em;
+  text-align: center;
+  font-weight: bolder;
 }
 ul {
   color: black;
@@ -52,7 +74,8 @@ ul {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
   font-family: monospace;
-  font-size: 1.1em;
+  font-size: 2em;
+  font-weight: bold;
 }
 img.center{
   display: block;

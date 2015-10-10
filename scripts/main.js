@@ -1,6 +1,6 @@
 //title
 var Heading1 = document.querySelector('h1');
-Heading1.innerHTML = 'Animals!';
+Heading1.innerHTML = 'Animals';
 
 //on-click message
 //document.querySelector('img').onclick = function() {
@@ -38,3 +38,28 @@ mooseImage.onclick = function() {
    }
    }
 }
+
+/*
+$("#slideshow1 > div:gt(0)").hide();
+
+setInterval(function() {
+  $('#slideshow1 > div:first')
+  .fadeOut(1000)
+  .next()
+  .fadeIn(1000)
+  .end()
+  .appendTo('#slideshow1');
+}, 3000);
+
+
+$("#slideshow2 > div:gt(0)").hide();
+
+setInterval(function() {
+  $('#slideshow2 > div:first')
+  .fadeOut(1000)
+  .next()
+  .fadeIn(1000)
+  .end()
+  .appendTo('#slideshow2');
+}, 3000);
+*/
