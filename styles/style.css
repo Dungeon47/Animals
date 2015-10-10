@@ -21,21 +21,36 @@ body {
 }
 p {
   color: black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
   font-family: monospace;
   font-size: 1.5em;
   text-align: center;
 }
 h1 {
+  color: black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
   font-family: monospace;
-  font-size: 2.5em;
+  font-size: 3em;
   text-align: center;
 }
 h2 {
+  color: black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
   font-family: monospace;
   font-size: 2em;
   text-align: center;
 }
 ul {
+  color: black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
   font-family: monospace;
   font-size: 1.1em;
 }
