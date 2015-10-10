@@ -54,7 +54,7 @@ h1 {
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
   font-family: monospace;
-  font-size: 5em;
+  font-size: 6em;
   text-align: center;
   font-weight: bolder;
 }
@@ -64,7 +64,7 @@ h2 {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
   font-family: monospace;
-  font-size: 3em;
+  font-size: 4em;
   text-align: center;
   font-weight: bolder;
 }
