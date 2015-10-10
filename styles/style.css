@@ -1,3 +1,24 @@
+body {
+  background-image: url("../images/desert2.jpeg");
+  background-color: #aaffcc;
+}
+.wrapper {
+  overflow: hidden;
+}
+.sliding-background {
+  background: url(../images/animals-sliding-background.jpg) repeat-x;
+  height: 800px;
+  width: 5075;
+  animation: slide 60s linear infinite;
+}
+@keyframes slide {
+  0%{
+    transform: translate3d(0, 0, 0);
+  }
+  100%{
+    transform: translate3d(-1692.px, 0, 0);
+  }
+}
 p {
   color: black;
   font-family: monospace;
