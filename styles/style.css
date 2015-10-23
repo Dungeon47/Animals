@@ -77,8 +77,27 @@ ul {
   font-size: 2em;
   font-weight: bold;
 }
-img.center{
+table {
+  border-style: none;
+  border-color: white;
+  color: black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-family: monospace;
+  font-size: 2em;
+  font-weight: bold;
+}
+td {
+  border-style: solid;
+  border-color: white;
+  border-width: thin;
+}
+img.animal {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 0.3em;
 }
