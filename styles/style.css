@@ -57,6 +57,10 @@ h1 {
   font-size: 6em;
   text-align: center;
   font-weight: bolder;
+  background: rgba(30,35,45,0.5);
+  border: solid rgba(20, 25, 35, 0.7) 10px;
+  margin: 0 150px 0 -20px;
+  back
 }
 h2 {
   color: black;
@@ -67,6 +71,23 @@ h2 {
   font-size: 4em;
   text-align: center;
   font-weight: bolder;
+  background: rgba(30,35,45,0.3);
+  border: solid rgba(20, 25, 35, 0.7) 5px;
+  margin: 10px 450px -15px 100px;
+}
+h3 {
+  color: black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-family: monospace;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+}
+.h3form {
+  text-align: left;
+  font-size: 1em;
 }
 ul {
   color: black;
@@ -95,9 +116,19 @@ td {
 }
 img.animal {
   display: block;
-  margin-left: auto;
+  margin-left: 150px;
   margin-right: auto;
   border-style: solid;
-  border-color: #000000;
-  border-width: 0.3em;
+  border-color: rgba(20, 25, 35, 1.0);
+  border-width: 10px;
+}
+form {
+  color: black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-family: monospace;
+  font-size: 14pt;
+  font-weight: bold;
+  text-align: left;
 }
